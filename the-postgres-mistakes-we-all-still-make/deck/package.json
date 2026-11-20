@@ -1,0 +1,11 @@
+{
+  "name": "nyc-pg-meetup-nov2026-deck",
+  "private": true,
+  "description": "Build tooling for deck/slides.md. See deck/build.sh.",
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  },
+  "overrides": {
+    "chromium-bidi": "157.0.8103-29"
+  }
+}

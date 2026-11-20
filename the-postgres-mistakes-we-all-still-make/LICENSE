@@ -1,0 +1,32 @@
+Licences for "The Postgres Mistakes We All Still Make" (NYC Postgres Meetup, November 2026)
+
+Code: every .sql, .py and .sh file in this directory and below (demos/, charts/, charts/data/,
+deck/, posts/, parked/)
+  PostgreSQL License
+
+  Copyright 2026 Scott Mead <scott@meads.us>
+
+  Permission to use, copy, modify, and distribute this software and its documentation for any
+  purpose, without fee, and without a written agreement is hereby granted, provided that the above
+  copyright notice and this paragraph and the following two paragraphs appear in all copies.
+
+  IN NO EVENT SHALL THE AUTHOR BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+  CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS
+  DOCUMENTATION, EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  THE AUTHOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER
+  IS ON AN "AS IS" BASIS, AND THE AUTHOR HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES,
+  ENHANCEMENTS, OR MODIFICATIONS.
+
+Everything else: the slides and speaker notes (deck/slides.md, deck/public/), the theme
+(deck/pgslides.css), charts and diagrams (charts/, parked/), the measurement data
+(charts/data/), and the announcement posts and banners (posts/)
+  Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+  Copyright 2026 Scott Mead <scott@meads.us>. Reuse and adapt freely; credit the author.
+
+Third-party material
+  The rendered HTML in deck/public/ embeds the Marp runtime, and deck/pgslides.css imports Marp's
+  gaia theme. Both are from marp-team (https://github.com/marp-team/marp-core) under the MIT
+  License, which continues to apply to those parts.

@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pool-bloat-svg" width="1100" height="450" viewBox="0 0 1100 450" font-family="DejaVu Sans, system-ui, sans-serif">
+<rect width="1100" height="450" fill="#1a1a19"/>
+<rect x="110" y="70" width="150" height="56" rx="8" fill="#3987e5" fill-opacity="0.12" stroke="#3987e5" stroke-width="1.5"/>
+<text x="185.0" y="95" fill="#f0efec" font-size="14" text-anchor="middle">app instance</text>
+<text x="185.0" y="114" fill="#c3c2b7" font-size="12" text-anchor="middle">pool of 20 clients</text>
+<rect x="110" y="150" width="150" height="56" rx="8" fill="#3987e5" fill-opacity="0.12" stroke="#3987e5" stroke-width="1.5"/>
+<text x="185.0" y="175" fill="#f0efec" font-size="14" text-anchor="middle">app instance</text>
+<text x="185.0" y="194" fill="#c3c2b7" font-size="12" text-anchor="middle">pool of 20 clients</text>
+<rect x="110" y="230" width="150" height="56" rx="8" fill="#3987e5" fill-opacity="0.12" stroke="#3987e5" stroke-width="1.5"/>
+<text x="185.0" y="255" fill="#f0efec" font-size="14" text-anchor="middle">app instance</text>
+<text x="185.0" y="274" fill="#c3c2b7" font-size="12" text-anchor="middle">pool of 20 clients</text>
+<rect id="pb-tbl" x="20" y="318" width="150" height="56" rx="8" fill="#199e70" fill-opacity="0.14" stroke="#199e70" stroke-width="1.5"/>
+<text x="95.0" y="342" fill="#f0efec" font-size="14" text-anchor="middle">users table</text>
+<text id="pb-pg-ok" x="95.0" y="361" fill="#199e70" font-size="12" text-anchor="middle">1 page per row</text>
+<text id="pb-pg1" x="95.0" y="361" fill="#e0a52a" font-size="12" text-anchor="middle" opacity="0">20 pages per row</text>
+<text id="pb-pg2" x="95.0" y="361" fill="#e0a52a" font-size="12" text-anchor="middle" opacity="0">80 pages per row</text>
+<text id="pb-pg3" x="95.0" y="361" fill="#e0a52a" font-size="12" text-anchor="middle" opacity="0">150 pages per row</text>
+<text id="pb-pg4" x="95.0" y="361" fill="#e5484d" font-size="12" text-anchor="middle" opacity="0">221 pages per row</text>
+<line id="pb-ln1" x1="260" y1="76" x2="380" y2="80" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln2" x1="260" y1="156" x2="380" y2="176" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln3" x1="260" y1="236" x2="380" y2="272" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln4" x1="260" y1="83" x2="380" y2="92" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln5" x1="260" y1="163" x2="380" y2="188" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln6" x1="260" y1="245" x2="380" y2="286" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln7" x1="260" y1="91" x2="380" y2="103" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln8" x1="260" y1="171" x2="380" y2="199" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln9" x1="260" y1="254" x2="380" y2="300" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln10" x1="260" y1="98" x2="380" y2="115" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln11" x1="260" y1="178" x2="380" y2="211" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln12" x1="260" y1="262" x2="380" y2="314" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln13" x1="260" y1="105" x2="380" y2="127" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln14" x1="260" y1="185" x2="380" y2="223" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln15" x1="260" y1="271" x2="380" y2="328" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln16" x1="260" y1="113" x2="380" y2="138" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln17" x1="260" y1="193" x2="380" y2="234" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln18" x1="260" y1="280" x2="380" y2="342" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln19" x1="260" y1="120" x2="380" y2="150" stroke="#d95926" stroke-width="1.3"/>
+<line id="pb-ln20" x1="260" y1="200" x2="380" y2="246" stroke="#d95926" stroke-width="1.3"/>
+<path d="M 380,62 V 384 A 230.0,18 0 0 0 840,384 V 62" fill="#199e70" fill-opacity="0.08" stroke="#199e70" stroke-width="1.5"/>
+<ellipse cx="610.0" cy="62" rx="230.0" ry="18" fill="#199e70" fill-opacity="0.22" stroke="#199e70" stroke-width="1.5"/>
+<text x="610.0" y="106" fill="#f0efec" font-size="15" text-anchor="middle">Postgres: 5 server connections, grows to 20</text>
+<rect id="pb-slot1" x="410" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab1" x="440.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<rect id="pb-slot2" x="494" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab2" x="524.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<rect id="pb-slot3" x="578" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab3" x="608.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<rect id="pb-slot4" x="662" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab4" x="692.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<rect id="pb-slot5" x="746" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab5" x="776.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<rect id="pb-slot6" x="410" y="186" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab6" x="440.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new1" x="440.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot7" x="494" y="186" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab7" x="524.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new2" x="524.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot8" x="578" y="186" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab8" x="608.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new3" x="608.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot9" x="662" y="186" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab9" x="692.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new4" x="692.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot10" x="746" y="186" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab10" x="776.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new5" x="776.0" y="212.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot11" x="410" y="248" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab11" x="440.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new6" x="440.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot12" x="494" y="248" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab12" x="524.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new7" x="524.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot13" x="578" y="248" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab13" x="608.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new8" x="608.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot14" x="662" y="248" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab14" x="692.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new9" x="692.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot15" x="746" y="248" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab15" x="776.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new10" x="776.0" y="274.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot16" x="410" y="310" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab16" x="440.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new11" x="440.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot17" x="494" y="310" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab17" x="524.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new12" x="524.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot18" x="578" y="310" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab18" x="608.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new13" x="608.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot19" x="662" y="310" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab19" x="692.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new14" x="692.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<rect id="pb-slot20" x="746" y="310" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5"/>
+<text id="pb-lab20" x="776.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle">query</text>
+<text id="pb-new15" x="776.0" y="336.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">new</text>
+<text x="410" y="374" fill="#199e70" font-size="12" text-anchor="start">green: free</text>
+<text x="530" y="374" fill="#d95926" font-size="12" text-anchor="start">orange: busy, reading dead versions to find the live row</text>
+<rect id="pb-bslot1" x="494" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5" opacity="0"/>
+<text id="pb-blab1" x="524.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">query</text>
+<line id="pb-bln1" x1="260" y1="156" x2="380" y2="176" stroke="#d95926" stroke-width="1.3" opacity="0"/>
+<rect id="pb-bslot2" x="662" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5" opacity="0"/>
+<text id="pb-blab2" x="692.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">query</text>
+<line id="pb-bln2" x1="260" y1="83" x2="380" y2="92" stroke="#d95926" stroke-width="1.3" opacity="0"/>
+<rect id="pb-bslot3" x="410" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5" opacity="0"/>
+<text id="pb-blab3" x="440.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">query</text>
+<line id="pb-bln3" x1="260" y1="76" x2="380" y2="80" stroke="#d95926" stroke-width="1.3" opacity="0"/>
+<rect id="pb-bslot4" x="578" y="124" width="60" height="44" rx="6" fill="#d95926" fill-opacity="0.8" stroke="#d95926" stroke-width="1.5" opacity="0"/>
+<text id="pb-blab4" x="608.0" y="150.0" fill="#f0efec" font-size="10" text-anchor="middle" opacity="0">query</text>
+<line id="pb-bln4" x1="260" y1="236" x2="380" y2="272" stroke="#d95926" stroke-width="1.3" opacity="0"/>
+<rect id="pb-fail1" x="110" y="70" width="150" height="56" rx="8" fill="#e5484d" fill-opacity="0.18" stroke="#e5484d" stroke-width="2"/>
+<line id="pb-strike1" x1="114" y1="122" x2="256" y2="74" stroke="#e5484d" stroke-width="3"/>
+<rect id="pb-fail2" x="110" y="150" width="150" height="56" rx="8" fill="#e5484d" fill-opacity="0.18" stroke="#e5484d" stroke-width="2"/>
+<line id="pb-strike2" x1="114" y1="202" x2="256" y2="154" stroke="#e5484d" stroke-width="3"/>
+<rect id="pb-fail3" x="110" y="230" width="150" height="56" rx="8" fill="#e5484d" fill-opacity="0.18" stroke="#e5484d" stroke-width="2"/>
+<line id="pb-strike3" x1="114" y1="282" x2="256" y2="234" stroke="#e5484d" stroke-width="3"/>
+<text id="pb-cap1" x="20" y="438" fill="#f0efec" font-size="15" text-anchor="start" opacity="0">every query reads one page, holds its connection for a millisecond, and gives it back</text>
+<text id="pb-cap2" x="20" y="438" fill="#f0efec" font-size="15" text-anchor="start" opacity="0">the table bloats. The same query reads 20 pages, then 80. Each one holds its connection longer</text>
+<text id="pb-cap3" x="20" y="438" fill="#f0efec" font-size="15" text-anchor="start" opacity="0">no free connection, so the pool opens a few more. They fill the same way: same traffic, longer holds</text>
+<text id="pb-cap4" x="20" y="438" fill="#f0efec" font-size="15" text-anchor="start" opacity="0">every server connection is busy reading dead versions. The pool is exhausted and the app is down</text>
+<text id="pb-cap5" x="20" y="438" fill="#f0efec" font-size="15" text-anchor="start">221 pages per row. The database is saturated, the app is down, and not a line of code changed</text>
+<rect x="1004" y="10" width="86" height="28" rx="6" fill="#1a1a19" fill-opacity="1" stroke="#383835" stroke-width="1.2"/>
+<text id="pb-ctl-label" x="1047" y="29" fill="#c3c2b7" font-size="13" text-anchor="middle">pause (a)</text>
+<rect x="908" y="10" width="86" height="28" rx="6" fill="#1a1a19" fill-opacity="1" stroke="#383835" stroke-width="1.2"/>
+<text x="951" y="29" fill="#c3c2b7" font-size="13" text-anchor="middle">restart (r)</text>
+<animate href="#pb-tbl" attributeName="fill" values="#e5484d;#e5484d;#199e70;#199e70;#e0a52a;#e0a52a;#e5484d;#e5484d" keyTimes="0.0000;0.0675;0.0692;0.2266;0.2284;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-tbl" attributeName="stroke" values="#e5484d;#e5484d;#199e70;#199e70;#e0a52a;#e0a52a;#e5484d;#e5484d" keyTimes="0.0000;0.0675;0.0692;0.2266;0.2284;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-pg-ok" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0675;0.0692;0.2266;0.2284;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-pg1" attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0.0000;0.0675;0.0692;0.2266;0.2284;0.3547;0.3564;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-pg2" attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0.0000;0.0675;0.0692;0.3547;0.3564;0.4758;0.4775;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-pg3" attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0.0000;0.0675;0.0692;0.4758;0.4775;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-pg4" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln1" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2474;0.2491;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln2" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2647;0.2664;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln3" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2820;0.2837;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln4" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2993;0.3010;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln5" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3166;0.3183;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln6" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3547;0.3564;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln6" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln7" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3824;0.3841;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln7" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln8" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4100;0.4118;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln8" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln9" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4377;0.4394;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln9" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln10" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4758;0.4775;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln10" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln11" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5035;0.5052;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln11" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln12" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5311;0.5329;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln12" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln13" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5588;0.5606;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln13" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln14" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln14" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln15" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6246;0.6263;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln15" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln16" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6522;0.6540;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln16" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln17" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6799;0.6817;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln17" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln18" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7180;0.7197;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln18" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7007;0.7024;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln19" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7457;0.7474;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln19" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7007;0.7024;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln20" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7734;0.7751;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-ln20" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7007;0.7024;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot1" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2474;0.2491;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot1" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2474;0.2491;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab1" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.2474;0.2491;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot2" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2647;0.2664;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot2" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2647;0.2664;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.2647;0.2664;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot3" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2820;0.2837;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot3" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2820;0.2837;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab3" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.2820;0.2837;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot4" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2993;0.3010;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot4" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.2993;0.3010;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab4" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.2993;0.3010;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot5" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3166;0.3183;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot5" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3166;0.3183;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab5" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3166;0.3183;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot6" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3547;0.3564;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot6" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3547;0.3564;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab6" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3547;0.3564;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot6" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3374;0.3391;0.3547;0.3564;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot7" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3824;0.3841;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot7" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.3824;0.3841;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab7" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3824;0.3841;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot7" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3374;0.3391;0.3824;0.3841;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot8" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4100;0.4118;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot8" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4100;0.4118;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab8" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4100;0.4118;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot8" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3374;0.3391;0.4100;0.4118;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot9" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4377;0.4394;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot9" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4377;0.4394;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab9" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4377;0.4394;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot9" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3374;0.3391;0.4377;0.4394;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot10" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4758;0.4775;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot10" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.4758;0.4775;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab10" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4758;0.4775;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot10" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new5" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4585;0.4602;0.4758;0.4775;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot11" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5035;0.5052;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot11" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5035;0.5052;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab11" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5035;0.5052;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot11" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new6" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4585;0.4602;0.5035;0.5052;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot12" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5311;0.5329;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot12" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5311;0.5329;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab12" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5311;0.5329;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot12" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new7" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4585;0.4602;0.5311;0.5329;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot13" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5588;0.5606;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot13" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5588;0.5606;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab13" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5588;0.5606;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot13" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.4585;0.4602;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new8" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4585;0.4602;0.5588;0.5606;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot14" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot14" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab14" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot14" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new9" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5796;0.5813;0.5969;0.5986;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot15" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6246;0.6263;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot15" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6246;0.6263;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab15" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.6246;0.6263;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot15" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new10" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5796;0.5813;0.6246;0.6263;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot16" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6522;0.6540;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot16" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6522;0.6540;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab16" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.6522;0.6540;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot16" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new11" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5796;0.5813;0.6522;0.6540;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot17" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6799;0.6817;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot17" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.6799;0.6817;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab17" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.6799;0.6817;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot17" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.5796;0.5813;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new12" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5796;0.5813;0.6799;0.6817;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot18" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7180;0.7197;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot18" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7180;0.7197;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab18" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7180;0.7197;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot18" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7007;0.7024;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new13" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7007;0.7024;0.7180;0.7197;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot19" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7457;0.7474;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot19" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7457;0.7474;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab19" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7457;0.7474;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot19" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7007;0.7024;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new14" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7007;0.7024;0.7457;0.7474;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot20" attributeName="fill" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7734;0.7751;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot20" attributeName="stroke" values="#d95926;#d95926;#199e70;#199e70;#d95926;#d95926" keyTimes="0.0000;0.0675;0.0692;0.7734;0.7751;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-lab20" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7734;0.7751;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-slot20" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7007;0.7024;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-new15" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7007;0.7024;0.7734;0.7751;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bslot1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0952;0.0969;0.1055;0.1073;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-blab1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0952;0.0969;0.1055;0.1073;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bln1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0952;0.0969;0.1055;0.1073;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bslot2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1332;0.1349;0.1436;0.1453;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-blab2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1332;0.1349;0.1436;0.1453;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bln2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1332;0.1349;0.1436;0.1453;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bslot3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1713;0.1730;0.1817;0.1834;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-blab3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1713;0.1730;0.1817;0.1834;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bln3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1713;0.1730;0.1817;0.1834;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bslot4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1747;0.1765;0.1851;0.1869;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-blab4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1747;0.1765;0.1851;0.1869;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-bln4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1747;0.1765;0.1851;0.1869;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-fail1" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7941;0.7958;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-strike1" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.7941;0.7958;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-fail2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.8183;0.8201;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-strike2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.8183;0.8201;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-fail3" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.8426;0.8443;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-strike3" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.8426;0.8443;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-cap1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0675;0.0692;0.2266;0.2284;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-cap2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2266;0.2284;0.3374;0.3391;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-cap3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3374;0.3391;0.7941;0.7958;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-cap4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7941;0.7958;0.8945;0.8962;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<animate href="#pb-cap5" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0675;0.0692;0.8945;0.8962;1.0000" calcMode="discrete" dur="28.9s" repeatCount="indefinite"/>
+<rect id="pb-ctl" x="1004" y="10" width="86" height="28" rx="6" fill="transparent" cursor="pointer"/>
+<rect id="pb-ctl-restart" x="908" y="10" width="86" height="28" rx="6" fill="transparent" cursor="pointer"/>
+<script>(function(){var svg=document.getElementById("pool-bloat-svg");if(!svg||!svg.pauseAnimations)return;var paused=false,label=document.getElementById("pb-ctl-label");function toggle(){paused=!paused;if(paused){svg.pauseAnimations();}else{svg.unpauseAnimations();}label.textContent=paused?"resume (a)":"pause (a)";}function restart(){svg.setCurrentTime(0);if(paused){svg.pauseAnimations();}else{svg.unpauseAnimations();}}document.getElementById("pb-ctl").addEventListener("click",toggle);document.getElementById("pb-ctl-restart").addEventListener("click",restart);document.addEventListener("keydown",function(e){if(e.key==="a"){toggle();}else if(e.key==="r"){restart();}});})();</script>
+</svg>

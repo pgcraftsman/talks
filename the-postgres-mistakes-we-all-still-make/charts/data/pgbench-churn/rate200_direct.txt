@@ -1,0 +1,15 @@
+pgbench (17.10)
+transaction type: <builtin: select only>
+scaling factor: 10
+query mode: simple
+number of clients: 20
+number of threads: 10
+maximum number of tries: 1
+duration: 12 s
+number of transactions actually processed: 2436
+number of failed transactions: 0 (0.000%)
+latency average = 8.780 ms
+latency stddev = 4.082 ms
+rate limit schedule lag: avg 7.825 (max 36.755) ms
+average connection time = 2.815 ms
+tps = 203.074393 (including reconnection times)

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220" font-family="DejaVu Sans, system-ui, sans-serif">
+<rect width="1100" height="220" fill="#1a1a19"/>
+<rect x="24" y="10" width="1052" height="200" rx="8" fill="#199e70" fill-opacity="0.07" stroke="#199e70" stroke-width="1.5"/>
+<text x="38" y="36" fill="#f0efec" font-size="15" text-anchor="start">users, heap page 0</text>
+<text x="1062" y="36" fill="#898781" font-size="12.5" text-anchor="end">8,192 bytes, two rows, 221 bytes used</text>
+<text x="42" y="66" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">xmin</text>
+<text x="120" y="66" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">xmax</text>
+<text x="196" y="66" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">id</text>
+<text x="238" y="66" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">profile</text>
+<text x="1062" y="66" fill="#898781" font-size="12" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, monospace">bytes</text>
+<line x1="34" y1="76" x2="1066" y2="76" stroke="#383835" stroke-width="1"/>
+<rect x="32" y="85" width="1036" height="30" rx="4" fill="#f0efec" fill-opacity="0.04" stroke="#f0efec" stroke-width="0"/>
+<text x="42" y="106" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">500</text>
+<text x="120" y="106" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace"></text>
+<text x="196" y="106" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">1</text>
+<text x="238" y="106" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">{"id": 1, "name": "Jane Smith", "email": "jane@example.com"}</text>
+<text x="1062" y="106" fill="#c3c2b7" font-size="13" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, monospace">110</text>
+<rect x="32" y="123" width="1036" height="30" rx="4" fill="#f0efec" fill-opacity="0.04" stroke="#f0efec" stroke-width="0"/>
+<text x="42" y="144" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">500</text>
+<text x="120" y="144" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace"></text>
+<text x="196" y="144" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">2</text>
+<text x="238" y="144" fill="#f0efec" font-size="13" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">{"id": 2, "name": "Mike Rivera", "email": "mike@example.com"}</text>
+<text x="1062" y="144" fill="#c3c2b7" font-size="13" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, monospace">111</text>
+<text x="38" y="196" fill="#c3c2b7" font-size="12.5" text-anchor="start">xid 500 wrote both rows and committed. Each profile is one jsonb value, 78 and 79 bytes, plus a 32-byte tuple header and id</text>
+</svg>

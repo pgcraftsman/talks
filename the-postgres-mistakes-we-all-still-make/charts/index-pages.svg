@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1153" height="407" viewBox="0 0 1153 407" font-family="DejaVu Sans, system-ui, sans-serif">
+  <rect width="1153" height="407" fill="#1a1a19"/>
+  <text x="10" y="32" fill="#f0efec" font-size="28">DELETE 62% of the rows: which index pages does vacuum get back?</text>
+
+  <!-- column headers -->
+  <text x="442.8" y="82" fill="#898781" font-size="20" text-anchor="middle">before</text>
+  <text x="938.4" y="82" fill="#898781" font-size="20" text-anchor="middle">after the DELETE</text>
+
+  <!-- row 1: time-ordered index -->
+  <text x="10" y="132.4" fill="#c3c2b7" font-size="21">time-ordered index</text>
+  <text x="10" y="158.4" fill="#898781" font-size="19" font-family="DejaVu Sans Mono, monospace">created_at</text>
+  <g>
+    <rect x="240.0" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="309.6" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="379.2" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="448.8" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="518.4" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="588.0" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+  </g>
+  <line x1="659.6" y1="134.4" x2="717.6" y2="134.4" stroke="#898781" stroke-width="1.8"/><polygon points="715.6,128.4 727.6,134.4 715.6,140.4" fill="#898781"/>
+  <g>
+    <rect x="735.6" y="96" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="805.2" y="96" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="874.8" y="96" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="944.4" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="1014.0" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="1083.6" y="96" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+  </g>
+  <text x="735.6" y="192.8" fill="#898781" font-size="16">oldest</text>
+  <text x="1141.2" y="192.8" fill="#898781" font-size="16" text-anchor="end">newest</text>
+  <text x="1141.2" y="220.8" fill="#898781" font-size="19" text-anchor="end">whole pages empty, vacuum recycles them</text>
+
+  <!-- row 2: random-key index -->
+  <text x="10" y="291.2" fill="#c3c2b7" font-size="21">random-key index</text>
+  <text x="10" y="317.2" fill="#898781" font-size="19" font-family="DejaVu Sans Mono, monospace">uuid</text>
+  <g>
+    <rect x="240.0" y="254.8" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="309.6" y="254.8" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="379.2" y="254.8" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="448.8" y="254.8" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="518.4" y="254.8" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+    <rect x="588.0" y="254.8" width="57.6" height="76.8" rx="4" fill="#3987e5"/>
+  </g>
+  <line x1="659.6" y1="293.2" x2="717.6" y2="293.2" stroke="#898781" stroke-width="1.8"/><polygon points="715.6,287.2 727.6,293.2 715.6,299.2" fill="#898781"/>
+  <g>
+    <rect x="735.6" y="254.8" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="735.6" y="306.0" width="57.6" height="25.6" rx="4" fill="#3987e5"/>
+    <rect x="805.2" y="254.8" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="805.2" y="306.0" width="57.6" height="25.6" rx="4" fill="#3987e5"/>
+    <rect x="874.8" y="254.8" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="874.8" y="306.0" width="57.6" height="25.6" rx="4" fill="#3987e5"/>
+    <rect x="944.4" y="254.8" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="944.4" y="306.0" width="57.6" height="25.6" rx="4" fill="#3987e5"/>
+    <rect x="1014.0" y="254.8" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="1014.0" y="306.0" width="57.6" height="25.6" rx="4" fill="#3987e5"/>
+    <rect x="1083.6" y="254.8" width="57.6" height="76.8" rx="4" fill="none" stroke="#898781" stroke-width="1.8"/>
+    <rect x="1083.6" y="306.0" width="57.6" height="25.6" rx="4" fill="#3987e5"/>
+  </g>
+  <text x="1141.2" y="361.6" fill="#898781" font-size="19" text-anchor="end">every page loses entries, none empties, nothing is recycled</text>
+
+  <text x="10" y="397" fill="#898781" font-size="17">each box is one leaf page; the fill is its live entries</text>
+</svg>

@@ -1,0 +1,34 @@
+{
+ "vacuum-holdback": {
+  "peak_pct": 45.3,
+  "passes_while_open": 3,
+  "open_min": 2.3,
+  "killed_min": 7.1,
+  "reclaimed_to_pct": 3.54
+ },
+ "hot-index": {
+  "with_index_pct": 38.13,
+  "with_index_updates": 60999,
+  "no_index_pct_at_edge": 1.9,
+  "no_index_final_pct": 3.46,
+  "no_index_final_updates": 1547897,
+  "no_index_final_min": 53
+ },
+ "connection-storm": {
+  "attempted_per_s": 80,
+  "burst_s": 45,
+  "accepted_after": 17,
+  "rejected_total": 19564
+ },
+ "pooled-vs-unpooled": {
+  "persistent": 215537,
+  "churn_direct": 1415,
+  "churn_pooled": 31523,
+  "connect_ms_direct": 7.051,
+  "connect_ms_pooled": 0.306,
+  "top_rate": 1600,
+  "top_direct_latency_ms": 332.263,
+  "top_direct_lag_max_ms": 974.422,
+  "top_pooled_latency_ms": 2.455
+ }
+}

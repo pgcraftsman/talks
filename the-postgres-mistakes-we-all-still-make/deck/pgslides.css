@@ -1,0 +1,142 @@
+/* @theme pgslides */
+@import 'gaia';
+
+section {
+  background: #1a1a19;
+  color: #f0efec;
+  font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 27px;
+  padding: 52px 64px 48px 64px;
+  line-height: 1.35;
+  justify-content: flex-start;
+}
+section.lead { justify-content: center; text-align: left; }
+section.center { justify-content: center; }
+section::after { color: #898781; font-size: 16px; }
+
+h1 { color: #f0efec; font-size: 1.75em; margin: 0 0 0.45em 0; line-height: 1.15; }
+h2 { color: #f0efec; font-size: 1.25em; margin: 0 0 0.4em 0; line-height: 1.2; }
+h3 { color: #c3c2b7; font-size: 0.95em; font-weight: 600; margin: 0.3em 0; }
+section.lead h1 { font-size: 2.3em; }
+section.lead h2 { color: #c3c2b7; font-weight: 400; }
+
+strong { color: #ffb86b; font-weight: 700; }
+em { color: #c3c2b7; }
+a { color: #86b6ef; }
+small, .muted { color: #898781; font-size: 0.72em; }
+blockquote { border-left: 4px solid #3987e5; color: #c3c2b7; padding-left: 0.6em; margin: 0.4em 0; }
+blockquote::before, blockquote::after { content: none; }
+
+ul, ol { margin: 0.2em 0 0.2em 0.2em; font-size: 0.8em; }   /* 2026-11-18: smaller bullets deck-wide (Scott) */
+section li ul, section li ol { font-size: 1em; }               /* nested lists do not shrink twice */
+li { margin: 0.12em 0; }
+li > ul { margin-top: 0.05em; }
+
+table { font-size: 0.78em; margin: 0.3em 0; border-collapse: collapse; }
+th { background: #2c2c2a; color: #f0efec; border: none; padding: 0.35em 0.7em; text-align: left; }
+td { background: transparent; color: #f0efec; border-bottom: 1px solid #2c2c2a; padding: 0.22em 0.6em; }
+tr:nth-child(even) td { background: transparent; }
+
+pre, code { font-family: ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; }
+code { background: #2c2c2a; color: #f0efec; padding: 0.05em 0.3em; border-radius: 4px; font-size: 0.88em; }
+pre { background: #111110; border: 1px solid #2c2c2a; border-radius: 8px; padding: 0.6em 0.9em; margin: 0.35em 0; font-size: 0.70em; line-height: 1.38; }
+pre code { background: transparent; color: #e8e6df; padding: 0; font-size: 1em; }
+section.code-lg pre { font-size: 0.82em; }
+section.code-xl pre { font-size: 0.70em; }   /* 2026-11-18: JSON slide CREATE TABLE */
+/* gaia turns on Marp auto-scaling for code: the pre's text sits in an svg with width:100% and no intrinsic width,
+   so an inline-block pre shrink-wraps to the svg's 300px fallback and the text is scaled down to fit (0.51x on
+   slide 11 whatever the font-size). Give the centred pre explicit room and nothing scales. */
+section.code-xl .center-img pre { width: 476px; }
+section.code-sm pre { font-size: 0.60em; }
+section.code-md pre { font-size: 0.74em; }   /* 2026-11-18: a code block that should fill the slide */
+
+/* highlight.js tokens on the dark surface */
+.hljs-keyword, .hljs-built_in, .hljs-type { color: #86b6ef; font-weight: 600; }
+.hljs-string, .hljs-literal { color: #f4a26b; }
+.hljs-number { color: #7fd1b0; }
+.hljs-comment { color: #898781; font-style: italic; }
+.hljs-operator, .hljs-punctuation { color: #c3c2b7; }
+.hljs-variable, .hljs-attr, .hljs-title { color: #e8e6df; }
+
+img { background: transparent; }
+section img.chart { display: block; margin: 0.2em auto 0 auto; }
+section.chart-slide { padding-top: 40px; }
+section.chart-slide h2 { margin-bottom: 0.2em; }
+
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; align-items: start; }
+.cols-wide { display: grid; grid-template-columns: 3fr 2fr; gap: 1.2em; align-items: start; }
+.tag { display: inline-block; background: #2c2c2a; color: #c3c2b7; border-radius: 6px; padding: 0.05em 0.5em; font-size: 0.7em; margin-right: 0.4em; vertical-align: middle; }
+.tag.catch { background: #16351f; color: #7fd1b0; }
+.tag.miss { background: #3a1f16; color: #f4a26b; }
+.claim { font-size: 1.15em; font-weight: 600; color: #f0efec; margin: 0.3em 0; }
+.foot { position: absolute; bottom: 44px; left: 64px; right: 64px; color: #898781; font-size: 0.6em; }
+.big { font-size: 2.6em; font-weight: 700; color: #f0efec; line-height: 1.1; }
+
+/* review pass 3: footer alignment, readable comments, chart centering */
+section footer { left: 64px; right: 64px; bottom: 21px; color: #898781; font-size: 16px; }
+.hljs-comment { color: #b5b3a8; font-style: italic; }
+section.chart-slide img { display: block; margin: 0 auto; }
+section.chart-slide { padding-top: 36px; }
+
+/* tables on the dark surface (review: slide 8 holders table) */
+table { font-size: 0.74em; width: 100%; border-collapse: collapse; margin: 0.25em 0; }
+th { background: transparent; color: #898781; font-weight: 400; text-align: left; border-bottom: 1px solid #383835; padding: 0.22em 0.6em; }
+td { background: transparent; color: #f0efec; text-align: left; border-bottom: 1px solid #2c2c2a; padding: 0.22em 0.6em; }
+tr:nth-child(even) td { background: transparent; }
+section table th, section table thead th { background: transparent !important; color: #898781; font-weight: 400; }
+section table td { background: transparent !important; }
+
+/* tables: row rules only. Overrides gaia's "section table td/th" 1px solid box (2026-11-16) */
+section table { border: none !important; background: transparent !important; }
+section table th, section table td { border: none !important; background: transparent !important; }
+section table thead th, section table th { border-bottom: 1px solid #383835 !important; color: #898781 !important; font-weight: 400 !important; }
+section table td { border-bottom: 1px solid #2c2c2a !important; }
+
+/* label-and-value tables (2026-11-17): slides tagged <!-- _class: kv --> render their tables
+   without the (empty) header row, compact, label column on one line */
+section.kv table thead { display: none; }
+section.kv table { font-size: 0.66em; margin: 0.15em 0; }
+section.kv table td { padding: 0.12em 0.5em; line-height: 1.3; }
+section.kv table td:first-child { white-space: nowrap; }
+section.kv table td code { padding: 0 0.25em; font-size: 0.95em; }
+
+/* compact tables with a header row (2026-11-17): slides tagged <!-- _class: tbl-sm --> */
+section.tbl-sm table { font-size: 0.72em; margin: 0.2em 0; }
+section.tbl-sm table td, section.tbl-sm table th { padding: 0.14em 0.5em; line-height: 1.3; }
+
+/* side-by-side columns (2026-11-17): <div class="cols"> with child <div>s; .wide takes two shares */
+section .cols { display: flex; gap: 1.1em; align-items: flex-start; }
+section .cols > div { flex: 1; min-width: 0; }
+section .cols > div.wide { flex: 1.7; }
+section .cols pre { margin: 0.25em 0 0.4em 0; }
+section .cols p { margin: 0.1em 0; font-size: 0.72em; color: #c3c2b7; }
+
+/* centred picture in a block (2026-11-18) */
+section .center-img { text-align: center; }
+section .center-img img { display: inline-block; margin: 0.1em auto; }
+section .center-img p { margin: 0; }
+
+/* smaller bullets (2026-11-18): slides tagged with bul-sm */
+section.bul-sm ul, section.bul-sm ol { font-size: 0.8em; }   /* no-op since the deck-wide rule above; kept for the slides that carry it */
+section.bul-xs ul, section.bul-xs ol { font-size: 0.7em; }   /* 2026-11-18: xmin horizon bullets (Scott) */
+section .center-img pre { display: inline-block; text-align: left; }
+
+/* development tags (2026-11-18): the short slide name next to the page number, set by renumber.py.
+   gaia puts the number at right 30px, bottom 21px, and this theme sets it to 16px. */
+section .devtag { position: absolute; right: 72px; bottom: 21px; font-size: 16px; color: #898781; letter-spacing: 0.06em; }
+/* the tag is the slide's first child, so gaia's "section > :first-child { margin-top: 0 }" stops reaching the
+   real first element (the chart's <p> on slides 6 and 17 kept its 1em top margin). Give it back. */
+section > .devtag + * { margin-top: 0; }
+/* uncomment to hide the dev tags for the real deck */
+/* section .devtag { display: none; } */
+
+/* 2026-11-18: MCONN bullets centred vertically (Scott) */
+section.vcenter { display: flex; flex-direction: column; justify-content: center; }   /* the section is not a flex box by default, so justify alone did nothing */
+
+/* 2026-11-18: OFIX 18-line block, tighter leading so it clears the footer */
+section.tight pre { line-height: 1.22; padding-top: 0.45em; padding-bottom: 0.45em; }
+section.tight h1 { margin-bottom: 0.25em; }
+section.tight ul { margin-bottom: 0.1em; }
+
+/* 2026-11-18: a footnote pinned above the footer, for slides whose inline SVG fills the body (OCONN) */
+section .foot-note { position: absolute; left: 64px; bottom: 86px; color: #898781; font-size: 0.72em; margin: 0; }

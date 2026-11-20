@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mvcc-svg" width="1100" height="450" viewBox="0 0 1100 450" font-family="DejaVu Sans, system-ui, sans-serif">
+<rect width="1100" height="450" fill="#1a1a19"/>
+<rect x="24" y="40" width="560" height="250" rx="8" fill="#199e70" fill-opacity="0.07" stroke="#199e70" stroke-width="1.5"/>
+<text x="38" y="64" fill="#f0efec" font-size="15" text-anchor="start">users, heap page 0</text>
+<text id="mv-sw1" x="570" y="64" fill="#898781" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 48 free</text>
+<text id="mv-sw2" x="570" y="64" fill="#c3c2b7" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 56 free</text>
+<text id="mv-sw3" x="570" y="64" fill="#c3c2b7" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 0 free</text>
+<text id="mv-sw4" x="570" y="64" fill="#3987e5" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 48 free</text>
+<text id="mv-sw5" x="570" y="64" fill="#c3c2b7" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 0 free</text>
+<text id="mv-sw6" x="570" y="64" fill="#3987e5" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 48 free</text>
+<text id="mv-sw7" x="570" y="64" fill="#898781" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 48 free</text>
+<text x="38" y="84" fill="#c3c2b7" font-size="11.5" text-anchor="start">xmin is the xid that wrote the version. xmax is the xid that deleted or replaced it</text>
+<text x="42" y="108" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">xmin</text>
+<text x="112" y="108" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">xmax</text>
+<text x="182" y="108" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">id</text>
+<text x="224" y="108" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">first_name</text>
+<text x="324" y="108" fill="#898781" font-size="12" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">last_name</text>
+<line x1="34" y1="118" x2="574" y2="118" stroke="#383835" stroke-width="1"/>
+<rect x="32" y="226" width="544" height="26" rx="4" fill="#f0efec" fill-opacity="0.03" stroke="#f0efec" stroke-width="0"/>
+<text x="42" y="244" fill="#898781" font-size="11.5" text-anchor="start">and the other 150 rows on this page</text>
+<rect id="mv-rowbg1" x="32" y="119" width="544" height="30" rx="4" fill="#f0efec" fill-opacity="0.04" stroke="#f0efec" stroke-width="0"/>
+<text id="mv-sw8" x="42" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">500</text>
+<text id="mv-sw9" x="42" y="140" fill="#898781" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">500</text>
+<text id="mv-sw10" x="112" y="140" fill="#e0a52a" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">502</text>
+<text id="mv-sw11" x="112" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">502</text>
+<text id="mv-sw12" x="112" y="140" fill="#898781" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">502</text>
+<text id="mv-rid1" x="182" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">1</text>
+<text id="mv-rfn1" x="224" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Jane</text>
+<text id="mv-sw13" x="324" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Smith</text>
+<text id="mv-sw14" x="324" y="140" fill="#898781" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Smith</text>
+<text id="mv-sw15" x="448" y="140" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">48 bytes</text>
+<text id="mv-sw16" x="448" y="140" fill="#e0a52a" font-size="11.5" text-anchor="start" opacity="0">xmax 502, in flight</text>
+<text id="mv-sw17" x="448" y="140" fill="#c3c2b7" font-size="11.5" text-anchor="start" opacity="0">old version</text>
+<text id="mv-sw18" x="448" y="140" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">dead until VACUUM</text>
+<line id="mv-strike1" x1="174" y1="135" x2="420" y2="135" stroke="#e5484d" stroke-width="1.6" opacity="0"/>
+<rect id="mv-free1" x="32" y="119" width="544" height="30" rx="4" fill="none" stroke="#898781" stroke-width="1" stroke-dasharray="5 4" opacity="0"/>
+<text id="mv-sw19" x="42" y="140" fill="#3987e5" font-size="12" text-anchor="start" opacity="0">free space, 48 bytes</text>
+<rect id="mv-rowbg2" x="32" y="119" width="544" height="30" rx="4" fill="#f0efec" fill-opacity="0.04" stroke="#f0efec" stroke-width="0"/>
+<text id="mv-sw20" x="42" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">504</text>
+<text id="mv-sw21" x="42" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">504</text>
+<text id="mv-rid2" x="182" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">3</text>
+<text id="mv-rfn2" x="224" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Susie</text>
+<text id="mv-sw22" x="324" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Rivera</text>
+<text id="mv-sw23" x="324" y="140" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Rivera</text>
+<text id="mv-sw24" x="448" y="140" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">48 bytes, reused the space</text>
+<text id="mv-sw25" x="448" y="140" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">48 bytes, reused the space</text>
+<text id="mv-sw26" x="448" y="140" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">48 bytes</text>
+<line id="mv-strike2" x1="174" y1="135" x2="420" y2="135" stroke="#e5484d" stroke-width="1.6" opacity="0"/>
+<rect id="mv-rowbg3" x="32" y="155" width="544" height="30" rx="4" fill="#f0efec" fill-opacity="0.04" stroke="#f0efec" stroke-width="0"/>
+<text id="mv-sw27" x="42" y="176" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">500</text>
+<text id="mv-sw28" x="42" y="176" fill="#898781" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">500</text>
+<text id="mv-sw29" x="112" y="176" fill="#898781" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">505</text>
+<text id="mv-rid3" x="182" y="176" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">2</text>
+<text id="mv-rfn3" x="224" y="176" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Mike</text>
+<text id="mv-sw30" x="324" y="176" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Rivera</text>
+<text id="mv-sw31" x="324" y="176" fill="#898781" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Rivera</text>
+<text id="mv-sw32" x="448" y="176" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">48 bytes</text>
+<text id="mv-sw33" x="448" y="176" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">dead, xmax 505</text>
+<line id="mv-strike3" x1="174" y1="171" x2="420" y2="171" stroke="#e5484d" stroke-width="1.6" opacity="0"/>
+<rect id="mv-free2" x="32" y="155" width="544" height="30" rx="4" fill="none" stroke="#898781" stroke-width="1" stroke-dasharray="5 4" opacity="0"/>
+<text id="mv-sw34" x="42" y="176" fill="#898781" font-size="12" text-anchor="start" opacity="0">48 bytes free. Nothing coming is that small: bloat</text>
+<text id="mv-sw35" x="42" y="176" fill="#3987e5" font-size="12" text-anchor="start" opacity="0">free space, 48 bytes</text>
+<text id="mv-sw36" x="42" y="176" fill="#898781" font-size="12" text-anchor="start" opacity="0">48 bytes free. Nothing coming is that small: bloat</text>
+<rect id="mv-rowbg4" x="32" y="191" width="544" height="30" rx="4" fill="#f0efec" fill-opacity="0.04" stroke="#f0efec" stroke-width="0"/>
+<text id="mv-sw37" x="42" y="212" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">502</text>
+<text id="mv-sw38" x="42" y="212" fill="#e0a52a" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">502</text>
+<text id="mv-sw39" x="42" y="212" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">502</text>
+<text id="mv-rid4" x="182" y="212" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">1</text>
+<text id="mv-rfn4" x="224" y="212" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Jane</text>
+<text id="mv-sw40" x="324" y="212" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Smith-Rivera</text>
+<text id="mv-sw41" x="324" y="212" fill="#e0a52a" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Smith-Rivera</text>
+<text id="mv-sw42" x="324" y="212" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Smith-Rivera</text>
+<text id="mv-sw43" x="448" y="212" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">56 bytes</text>
+<text id="mv-sw44" x="448" y="212" fill="#e0a52a" font-size="11.5" text-anchor="start" opacity="0">56 bytes, in flight</text>
+<text id="mv-sw45" x="448" y="212" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">56 bytes, live</text>
+<text id="mv-sw46" x="448" y="212" fill="#898781" font-size="11.5" text-anchor="start" opacity="0">56 bytes</text>
+<line id="mv-strike4" x1="174" y1="207" x2="420" y2="207" stroke="#e5484d" stroke-width="1.6" opacity="0"/>
+<text id="mv-sw47" x="38" y="276" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">48 bytes free that no row fits. The table grew a page instead</text>
+<text id="mv-sw48" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">xid 500 wrote both rows and committed. 56 bytes left on the page</text>
+<text id="mv-sw49" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">UPDATE wrote a second version of row 1 and set xmax on the first. Page full</text>
+<text id="mv-sw50" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">COMMIT changed nothing on this page. It marked 502 committed in the clog</text>
+<text id="mv-sw51" x="38" y="276" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">two live versions, one dead. Every reader steps over it until VACUUM</text>
+<text id="mv-sw52" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">VACUUM removed the dead version. 48 bytes free</text>
+<text id="mv-sw53" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">the INSERT reused the 48 bytes. The table did not grow</text>
+<text id="mv-sw54" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">DELETE marked Mike's row dead. Its bytes are still taken</text>
+<text id="mv-sw55" x="38" y="276" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">VACUUM removed Mike's row. 48 bytes free</text>
+<text id="mv-sw56" x="38" y="276" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">48 bytes free that no row fits. The table grew a page instead</text>
+<rect id="mv-p11" x="24" y="300" width="560" height="46" rx="8" fill="#d95926" fill-opacity="0.07" stroke="#d95926" stroke-width="1.5" opacity="0"/>
+<text id="mv-p1t1" x="38" y="318" fill="#f0efec" font-size="13" text-anchor="start" opacity="0">users, heap page 1, new</text>
+<text id="mv-p1t2" x="42" y="336" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">506</text>
+<text id="mv-p1t3" x="182" y="336" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">4</text>
+<text id="mv-p1t4" x="224" y="336" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Bartholomew</text>
+<text id="mv-p1t5" x="342" y="336" fill="#f0efec" font-size="13" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">Featherstonehaugh</text>
+<text id="mv-p1t6" x="570" y="318" fill="#c3c2b7" font-size="12.5" text-anchor="end" opacity="0">8,192 bytes, 8,128 free</text>
+<text id="mv-p1t7" x="570" y="336" fill="#d95926" font-size="11.5" text-anchor="end" opacity="0">64 bytes</text>
+<rect x="24" y="356" width="560" height="60" rx="8" fill="#3987e5" fill-opacity="0.07" stroke="#3987e5" stroke-width="1.5"/>
+<text x="38" y="374" fill="#f0efec" font-size="13" text-anchor="start">free space map (FSM), one entry per page</text>
+<text id="mv-sw57" x="38" y="393" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">page 0: 48 bytes free. Too small for any row that comes in</text>
+<text id="mv-sw58" x="38" y="393" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0">page 0: 56 bytes free</text>
+<text id="mv-sw59" x="38" y="393" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">page 0: 0 bytes free</text>
+<text id="mv-sw60" x="38" y="393" fill="#3987e5" font-size="12.5" text-anchor="start" opacity="0">page 0: 48 bytes free</text>
+<text id="mv-sw61" x="38" y="393" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">page 0: 0 bytes free</text>
+<text id="mv-sw62" x="38" y="393" fill="#3987e5" font-size="12.5" text-anchor="start" opacity="0">page 0: 48 bytes free</text>
+<text id="mv-sw63" x="38" y="393" fill="#898781" font-size="12.5" text-anchor="start" opacity="0">page 0: 48 bytes free. Too small for any row that comes in</text>
+<text id="mv-sw64" x="38" y="409" fill="#3987e5" font-size="12.5" text-anchor="start" opacity="0">page 1: 8,128 bytes free</text>
+<text id="mv-sw65" x="38" y="409" fill="#3987e5" font-size="12.5" text-anchor="start" opacity="0">page 1: 8,128 bytes free</text>
+<path id="mv-fsmarrow1" d="M 254,389 H 594 V 134 H 586" fill="none" stroke="#3987e5" stroke-width="1.6" opacity="0"/>
+<polygon id="mv-fsmhead1" points="578,134 588,129 588,139" fill="#3987e5" opacity="0"/>
+<path id="mv-fsmarrow2" d="M 254,389 H 594 V 170 H 586" fill="none" stroke="#3987e5" stroke-width="1.6" opacity="0"/>
+<polygon id="mv-fsmhead2" points="578,170 588,165 588,175" fill="#3987e5" opacity="0"/>
+<rect x="610" y="40" width="470" height="130" rx="8" fill="#3987e5" fill-opacity="0.1" stroke="#3987e5" stroke-width="1.5"/>
+<text x="624" y="64" fill="#3987e5" font-size="14" text-anchor="start">transaction 501, the reader</text>
+<rect x="610" y="190" width="470" height="130" rx="8" fill="#d95926" fill-opacity="0.1" stroke="#d95926" stroke-width="1.5"/>
+<text x="624" y="88" fill="#f0efec" font-size="12.5" text-anchor="start" font-family="DejaVu Sans Mono, Menlo, monospace">BEGIN;  SELECT * FROM users;</text>
+<text id="mv-sw66" x="624" y="103" fill="#3987e5" font-size="12" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">1  Jane  Smith-Rivera</text>
+<text id="mv-sw67" x="624" y="103" fill="#3987e5" font-size="12" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">1  Jane  Smith</text>
+<text id="mv-sw68" x="624" y="103" fill="#3987e5" font-size="12" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">1  Jane  Smith-Rivera</text>
+<text id="mv-r2res" x="624" y="117" fill="#3987e5" font-size="12" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">2  Mike  Rivera</text>
+<text id="mv-r3res" x="624" y="131" fill="#3987e5" font-size="12" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">3  Susie Rivera</text>
+<text id="mv-r4res" x="624" y="145" fill="#3987e5" font-size="12" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">4  Bartholomew  Featherstonehaugh</text>
+<text id="mv-sw69" x="624" y="163" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">SELECT again. Three rows, one of them on a new page</text>
+<text id="mv-sw70" x="624" y="163" fill="#c3c2b7" font-size="11.5" text-anchor="start" opacity="0">snapshot: everything committed before now</text>
+<text id="mv-sw71" x="624" y="163" fill="#e0a52a" font-size="11.5" text-anchor="start" opacity="0">SELECT again. Still Smith. 502 is in flight, its version is invisible</text>
+<text id="mv-sw72" x="624" y="163" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">SELECT again. Smith-Rivera. New statement, new snapshot</text>
+<text id="mv-sw73" x="624" y="163" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">SELECT again. Three rows. 504 committed</text>
+<text id="mv-sw74" x="624" y="163" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">SELECT again. Two rows. 505 committed, Mike is gone</text>
+<text id="mv-sw75" x="624" y="163" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">SELECT again. Three rows, one of them on a new page</text>
+<text id="mv-sw76" x="624" y="214" fill="#d95926" font-size="14" text-anchor="start" opacity="0">transaction 506, a long name</text>
+<text id="mv-sw77" x="624" y="214" fill="#d95926" font-size="14" text-anchor="start" opacity="0">transaction 502, marry me</text>
+<text id="mv-sw78" x="624" y="214" fill="#199e70" font-size="14" text-anchor="start" opacity="0">autovacuum, or VACUUM users</text>
+<text id="mv-sw79" x="624" y="214" fill="#d95926" font-size="14" text-anchor="start" opacity="0">transaction 504, a new user</text>
+<text id="mv-sw80" x="624" y="214" fill="#d95926" font-size="14" text-anchor="start" opacity="0">transaction 505, Mike leaves</text>
+<text id="mv-sw81" x="624" y="214" fill="#199e70" font-size="14" text-anchor="start" opacity="0">autovacuum, or VACUUM users</text>
+<text id="mv-sw82" x="624" y="214" fill="#d95926" font-size="14" text-anchor="start" opacity="0">transaction 506, a long name</text>
+<text id="mv-sw83" x="624" y="240" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">BEGIN;</text>
+<text id="mv-sw84" x="624" y="240" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">VACUUM users;</text>
+<text id="mv-sw85" x="624" y="240" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">BEGIN;</text>
+<text id="mv-sw86" x="624" y="240" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">VACUUM users;</text>
+<text id="mv-sw87" x="624" y="240" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">BEGIN;</text>
+<text id="mv-sw88" x="624" y="260" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">INSERT INTO users</text>
+<text id="mv-sw89" x="624" y="260" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">UPDATE users SET last_name = 'Smith-Rivera'</text>
+<text id="mv-sw90" x="624" y="260" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">dead versions become free space on the page</text>
+<text id="mv-sw91" x="624" y="260" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">INSERT INTO users VALUES (3, 'Susie', 'Rivera');</text>
+<text id="mv-sw92" x="624" y="260" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">DELETE FROM users WHERE id = 2;</text>
+<text id="mv-sw93" x="624" y="260" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">dead versions become free space on the page</text>
+<text id="mv-sw94" x="624" y="260" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">INSERT INTO users</text>
+<text id="mv-sw95" x="624" y="278" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">  VALUES (4, 'Bartholomew', 'Featherstonehaugh');</text>
+<text id="mv-sw96" x="624" y="278" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">  WHERE id = 1;</text>
+<text id="mv-sw97" x="624" y="278" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">the free space map (FSM) records how much</text>
+<text id="mv-sw98" x="624" y="278" fill="#c3c2b7" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">the free space map (FSM) records how much</text>
+<text id="mv-sw99" x="624" y="278" fill="#f0efec" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">  VALUES (4, 'Bartholomew', 'Featherstonehaugh');</text>
+<text id="mv-sw100" x="624" y="298" fill="#199e70" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">COMMIT;</text>
+<text id="mv-sw101" x="624" y="298" fill="#199e70" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">COMMIT;</text>
+<text id="mv-sw102" x="624" y="298" fill="#199e70" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">COMMIT;</text>
+<text id="mv-sw103" x="624" y="298" fill="#199e70" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">COMMIT;</text>
+<text id="mv-sw104" x="624" y="298" fill="#199e70" font-size="12.5" text-anchor="start" opacity="0" font-family="DejaVu Sans Mono, Menlo, monospace">COMMIT;</text>
+<text id="mv-sw105" x="624" y="314" fill="#e5484d" font-size="11.5" text-anchor="start" opacity="0">64 bytes. Page 0 has 48 free, so the table grows a page</text>
+<text id="mv-sw106" x="624" y="314" fill="#e0a52a" font-size="11.5" text-anchor="start" opacity="0">in flight: holds xid 502 and a connection</text>
+<text id="mv-sw107" x="624" y="314" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">committed</text>
+<text id="mv-sw108" x="624" y="314" fill="#c3c2b7" font-size="11.5" text-anchor="start" opacity="0">no lock on the table, readers and writers carry on</text>
+<text id="mv-sw109" x="624" y="314" fill="#199e70" font-size="11.5" text-anchor="start" opacity="0">the FSM pointed at page 0, so Susie took the freed space</text>
+<text id="mv-sw110" x="624" y="314" fill="#c3c2b7" font-size="11.5" text-anchor="start" opacity="0">DELETE writes nothing new. It sets xmax, and the row is dead</text>
+<text id="mv-sw111" x="624" y="314" fill="#c3c2b7" font-size="11.5" text-anchor="start" opacity="0">48 bytes free on page 0 again</text>
+<text id="mv-sw112" x="624" y="314" fill="#e5484d" font-size="11.5" text-anchor="start" opacity="0">64 bytes. Page 0 has 48 free, so the table grows a page</text>
+<rect id="mv-p1cover1" x="608" y="38" width="474" height="134" rx="8" fill="#1a1a19" fill-opacity="1" stroke="#1a1a19" stroke-width="0"/>
+<rect id="mv-p2cover1" x="608" y="188" width="474" height="134" rx="8" fill="#1a1a19" fill-opacity="1" stroke="#1a1a19" stroke-width="0"/>
+<text id="mv-sw113" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">the whole story</text>
+<text id="mv-sw114" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">1. Bulk load</text>
+<text id="mv-sw115" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">2. A reader takes a snapshot</text>
+<text id="mv-sw116" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">3. UPDATE writes a new version</text>
+<text id="mv-sw117" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">4. The reader still sees Smith</text>
+<text id="mv-sw118" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">5. COMMIT</text>
+<text id="mv-sw119" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">6. New statement, new snapshot</text>
+<text id="mv-sw120" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">7. A dead version</text>
+<text id="mv-sw121" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">8. VACUUM frees 48 bytes</text>
+<text id="mv-sw122" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">9. The FSM reuses them</text>
+<text id="mv-sw123" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">10. DELETE</text>
+<text id="mv-sw124" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">11. VACUUM frees 48 bytes</text>
+<text id="mv-sw125" x="24" y="30" fill="#f0efec" font-size="19" text-anchor="start" opacity="0">12. A row that does not fit</text>
+<text id="mv-cap1" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">dead versions become free bytes. A row that fits reuses them; a row that does not grows the table and leaves the gap behind</text>
+<text id="mv-cap2" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">xid 500 bulk-loads the table in one transaction and commits. The page is otherwise full</text>
+<text id="mv-cap3" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">501 reads. Its snapshot is everything committed before the statement started</text>
+<text id="mv-cap4" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">502 updates row 1. Postgres never overwrites: a new version is written, and the old one gets xmax = 502</text>
+<text id="mv-cap5" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">501 reads again and still sees Smith. 502 has not committed, so its version is invisible to everyone else</text>
+<text id="mv-cap6" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">502 commits. The page does not change; the commit log now says 502 is committed</text>
+<text id="mv-cap7" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">501's next statement takes a new snapshot and sees Smith-Rivera (READ COMMITTED, the default)</text>
+<text id="mv-cap8" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">the old version is dead. It stays on the page until VACUUM, and every reader steps over it until then</text>
+<text id="mv-cap9" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">VACUUM compacts the page, frees the dead version's 48 bytes, and records them in the free space map</text>
+<text id="mv-cap10" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">504 inserts Susie Rivera, 48 bytes after padding. The FSM points at page 0, so she takes the freed space</text>
+<text id="mv-cap11" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">505 deletes Mike. DELETE writes nothing; it sets xmax, and once 505 commits the version is dead</text>
+<text id="mv-cap12" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">VACUUM frees Mike's 48 bytes and the FSM records page 0 again</text>
+<text id="mv-cap13" x="20" y="438" fill="#f0efec" font-size="14" text-anchor="start" opacity="0">506 inserts a 64-byte row. 48 is not enough, so the table grows a page. The 48 bytes on page 0 stay empty: bloat</text>
+<rect x="800" y="10" width="88" height="28" rx="6" fill="#1a1a19" fill-opacity="1" stroke="#383835" stroke-width="1.2"/>
+<text id="mvcc-back-label" x="844" y="29" fill="#c3c2b7" font-size="12.5" text-anchor="middle">back (b)</text>
+<rect x="896" y="10" width="88" height="28" rx="6" fill="#1a1a19" fill-opacity="1" stroke="#383835" stroke-width="1.2"/>
+<text id="mvcc-next-label" x="940" y="29" fill="#c3c2b7" font-size="12.5" text-anchor="middle">next (n)</text>
+<rect x="992" y="10" width="88" height="28" rx="6" fill="#1a1a19" fill-opacity="1" stroke="#383835" stroke-width="1.2"/>
+<text id="mvcc-play-label" x="1036" y="29" fill="#c3c2b7" font-size="12.5" text-anchor="middle">play (a)</text>
+<text id="mvcc-step" x="786" y="29" fill="#898781" font-size="12.5" text-anchor="end">step 1 of 12</text>
+<animate href="#mv-sw1" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw5" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw6" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw7" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rowbg1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw8" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw9" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw10" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw11" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw12" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rid1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rfn1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw13" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw14" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw15" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw16" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw17" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw18" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-strike1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-free1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw19" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rowbg2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw20" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw21" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rid2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rfn2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw22" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw23" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw24" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw25" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw26" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-strike2" attributeName="opacity" values="0;0" keyTimes="0.0000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rowbg3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0699;0.0711;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw27" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0699;0.0711;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw28" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw29" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rid3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0699;0.0711;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rfn3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0699;0.0711;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw30" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0699;0.0711;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw31" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw32" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0699;0.0711;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw33" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-strike3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-free2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw34" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw35" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw36" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rowbg4" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw37" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw38" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw39" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rid4" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-rfn4" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw40" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw41" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw42" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw43" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw44" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw45" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw46" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-strike4" attributeName="opacity" values="0;0" keyTimes="0.0000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw47" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw48" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw49" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw50" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw51" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw52" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw53" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw54" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw55" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw56" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p11" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t1" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t2" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t3" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t4" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t5" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t6" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1t7" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw57" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw58" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw59" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw60" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw61" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw62" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw63" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw64" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw65" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-fsmarrow1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-fsmhead1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-fsmarrow2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-fsmhead2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw66" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw67" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1262;0.1275;0.4301;0.4314;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw68" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.4301;0.4314;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-r2res" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1262;0.1275;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-r3res" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-r4res" attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.0000;0.0478;0.0490;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw69" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw70" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1262;0.1275;0.2880;0.2892;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw71" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2880;0.2892;0.4301;0.4314;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw72" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4301;0.4314;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw73" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw74" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw75" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw76" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw77" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw78" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw79" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw80" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw81" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw82" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw83" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw84" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw85" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw86" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw87" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw88" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw89" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw90" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw91" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw92" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw93" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw94" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw95" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw96" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw97" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw98" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw99" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw100" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw101" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw102" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw103" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw104" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw105" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw106" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw107" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw108" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw109" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw110" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw111" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw112" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p1cover1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.1262;0.1275;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-p2cover1" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw113" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw114" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.1262;0.1275;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw115" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1262;0.1275;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw116" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.2880;0.2892;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw117" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2880;0.2892;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw118" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.4301;0.4314;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw119" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4301;0.4314;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw120" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw121" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw122" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw123" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw124" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-sw125" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap1" attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.0478;0.0490;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap2" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0478;0.0490;0.1262;0.1275;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap3" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1262;0.1275;0.2047;0.2059;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap4" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2047;0.2059;0.2880;0.2892;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap5" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2880;0.2892;0.3664;0.3676;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap6" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3664;0.3676;0.4301;0.4314;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap7" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4301;0.4314;0.4988;0.5000;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap8" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4988;0.5000;0.5821;0.5833;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap9" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5821;0.5833;0.6605;0.6618;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap10" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6605;0.6618;0.7439;0.7451;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap11" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7439;0.7451;0.8223;0.8235;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap12" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8223;0.8235;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<animate href="#mv-cap13" attributeName="opacity" values="0;0;1;1" keyTimes="0.0000;0.9056;0.9069;1.0000" calcMode="discrete" dur="40.8s" repeatCount="indefinite"/>
+<rect id="mvcc-back" x="800" y="10" width="88" height="28" rx="6" fill="transparent" cursor="pointer"/>
+<rect id="mvcc-next" x="896" y="10" width="88" height="28" rx="6" fill="transparent" cursor="pointer"/>
+<rect id="mvcc-play" x="992" y="10" width="88" height="28" rx="6" fill="transparent" cursor="pointer"/>
+<script>(function(){var svg=document.getElementById("mvcc-svg");if(!svg||!svg.pauseAnimations)return;var F=[3.00,5.30,8.50,11.90,15.10,17.70,20.50,23.90,27.10,30.50,33.70,37.10],i=0,playing=false;var step=document.getElementById("mvcc-step"),play=document.getElementById("mvcc-play-label");function go(k){i=Math.max(0,Math.min(F.length-1,k));svg.setCurrentTime(F[i]);step.textContent="step "+(i+1)+" of "+F.length;}function pause(){playing=false;svg.pauseAnimations();play.textContent="play (a)";}function toggle(){if(playing){pause();}else{playing=true;svg.unpauseAnimations();play.textContent="pause (a)";}}function next(){if(playing)pause();go(i+1);} function back(){if(playing)pause();go(i-1);}svg.pauseAnimations();go(0);document.getElementById("mvcc-next").addEventListener("click",next);document.getElementById("mvcc-back").addEventListener("click",back);document.getElementById("mvcc-play").addEventListener("click",toggle);document.addEventListener("keydown",function(e){if(e.key==="n"){next();}else if(e.key==="b"){back();}else if(e.key==="a"){toggle();}});})();</script>
+</svg>

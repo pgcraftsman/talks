@@ -1,0 +1,6 @@
+pgbench single-row UPDATE (upd.sql), 4 clients, 20 s, local PG 17.10, 1,000,000-row idxcost, 2026-11-17
+0 indexes: latency average 0.231 ms, 17,339 tps; 0.225 ms, 17,796 tps
+7 indexes: latency average 0.188 ms, 21,242 tps; 0.179 ms, 22,362 tps
+Conclusion: at 1M rows with the table and indexes in RAM the laptop cannot measure index maintenance
+in UPDATE latency; the difference is inside run-to-run noise. The 20-client run (idxrun.sh, idx-latency.csv)
+was CPU-bound by pgbench itself and is not usable.

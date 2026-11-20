@@ -1,0 +1,5 @@
+# Python venv the deck build scripts create at the repo root
+.venv/
+node_modules/
+__pycache__/
+.DS_Store

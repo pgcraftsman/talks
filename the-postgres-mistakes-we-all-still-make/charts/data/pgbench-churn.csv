@@ -1,0 +1,15 @@
+run,mode,path,requested_per_s,tps,latency_avg_ms,connect_ms,lag_avg_ms,lag_max_ms
+churn_direct,connect_per_txn,direct,,1415.1,14.133,7.051,,
+churn_pooled,connect_per_txn,pooled,,31523.6,0.634,0.306,,
+persistent_direct,persistent,direct,,215537.7,0.093,,,
+persistent_pooled,persistent,pooled,,163008.5,0.123,,,
+rate100_direct,connect_per_txn,direct,100,104.4,10.756,3.767,9.606,34.281
+rate100_pooled,connect_per_txn,pooled,100,102.5,6.113,0.398,5.846,11.616
+rate1600_direct,connect_per_txn,direct,1600,1522.3,332.263,6.466,325.810,974.422
+rate1600_pooled,connect_per_txn,pooled,1600,1598.4,2.455,0.178,2.300,58.931
+rate200_direct,connect_per_txn,direct,200,203.1,8.780,2.815,7.825,36.755
+rate200_pooled,connect_per_txn,pooled,200,202.9,5.821,0.313,5.546,14.834
+rate400_direct,connect_per_txn,direct,400,406.5,6.652,1.860,5.901,54.367
+rate400_pooled,connect_per_txn,pooled,400,394.4,4.745,0.268,4.507,16.159
+rate800_direct,connect_per_txn,direct,800,797.1,5.374,1.539,4.639,35.989
+rate800_pooled,connect_per_txn,pooled,800,792.7,3.595,0.197,3.436,14.336

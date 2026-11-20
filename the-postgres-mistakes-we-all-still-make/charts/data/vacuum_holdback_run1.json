@@ -1,0 +1,552 @@
+{
+"rows": [
+{
+"t": 0.0,
+"rate": 20.0,
+"dead": 185,
+"dead_pct": 0.18,
+"size_mb": 15.1,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 15.0,
+"rate": 20.0,
+"dead": 488,
+"dead_pct": 0.49,
+"size_mb": 15.1,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 30.0,
+"rate": 20.6,
+"dead": 777,
+"dead_pct": 0.77,
+"size_mb": 15.1,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 45.0,
+"rate": 20.1,
+"dead": 1027,
+"dead_pct": 1.02,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 60.0,
+"rate": 20.0,
+"dead": 1276,
+"dead_pct": 1.26,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 76.0,
+"rate": 20.0,
+"dead": 1501,
+"dead_pct": 1.48,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 91.0,
+"rate": 20.7,
+"dead": 1722,
+"dead_pct": 1.69,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 106.0,
+"rate": 20.0,
+"dead": 1915,
+"dead_pct": 1.88,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 121.0,
+"rate": 20.0,
+"dead": 2088,
+"dead_pct": 2.05,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "none",
+"tx_age": null
+},
+{
+"t": 136.0,
+"rate": 20.3,
+"dead": 2225,
+"dead_pct": 2.18,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 3
+},
+{
+"t": 151.0,
+"rate": 24.4,
+"dead": 2436,
+"dead_pct": 2.38,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 19
+},
+{
+"t": 166.0,
+"rate": 34.0,
+"dead": 2768,
+"dead_pct": 2.69,
+"size_mb": 15.2,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 34
+},
+{
+"t": 181.0,
+"rate": 57.3,
+"dead": 3449,
+"dead_pct": 3.33,
+"size_mb": 15.3,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 49
+},
+{
+"t": 197.0,
+"rate": 183.8,
+"dead": 5849,
+"dead_pct": 5.53,
+"size_mb": 15.6,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 64
+},
+{
+"t": 212.0,
+"rate": 301.3,
+"dead": 10384,
+"dead_pct": 9.41,
+"size_mb": 16.2,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 79
+},
+{
+"t": 227.0,
+"rate": 300.4,
+"dead": 14871,
+"dead_pct": 12.95,
+"size_mb": 17.2,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 94
+},
+{
+"t": 242.0,
+"rate": 301.4,
+"dead": 19567,
+"dead_pct": 16.36,
+"size_mb": 19.3,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 109
+},
+{
+"t": 257.0,
+"rate": 301.2,
+"dead": 24070,
+"dead_pct": 19.4,
+"size_mb": 20.1,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 124
+},
+{
+"t": 272.0,
+"rate": 301.6,
+"dead": 28609,
+"dead_pct": 22.24,
+"size_mb": 20.7,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 140
+},
+{
+"t": 287.0,
+"rate": 301.5,
+"dead": 33110,
+"dead_pct": 24.87,
+"size_mb": 21.3,
+"autovac": 1,
+"holdback": "open",
+"tx_age": 155
+},
+{
+"t": 302.0,
+"rate": 301.5,
+"dead": 36286,
+"dead_pct": 26.62,
+"size_mb": 21.8,
+"autovac": 2,
+"holdback": "open",
+"tx_age": 170
+},
+{
+"t": 318.0,
+"rate": 302.0,
+"dead": 40820,
+"dead_pct": 28.99,
+"size_mb": 22.4,
+"autovac": 2,
+"holdback": "open",
+"tx_age": 185
+},
+{
+"t": 333.0,
+"rate": 301.5,
+"dead": 45322,
+"dead_pct": 31.19,
+"size_mb": 23.0,
+"autovac": 2,
+"holdback": "open",
+"tx_age": 200
+},
+{
+"t": 348.0,
+"rate": 301.5,
+"dead": 49826,
+"dead_pct": 33.25,
+"size_mb": 23.5,
+"autovac": 2,
+"holdback": "open",
+"tx_age": 215
+},
+{
+"t": 363.0,
+"rate": 301.8,
+"dead": 54271,
+"dead_pct": 35.18,
+"size_mb": 24.2,
+"autovac": 3,
+"holdback": "open",
+"tx_age": 230
+},
+{
+"t": 378.0,
+"rate": 301.6,
+"dead": 58798,
+"dead_pct": 37.02,
+"size_mb": 24.7,
+"autovac": 3,
+"holdback": "open",
+"tx_age": 245
+},
+{
+"t": 393.0,
+"rate": 300.7,
+"dead": 63290,
+"dead_pct": 38.76,
+"size_mb": 25.3,
+"autovac": 3,
+"holdback": "open",
+"tx_age": 261
+},
+{
+"t": 408.0,
+"rate": 302.1,
+"dead": 67938,
+"dead_pct": 40.45,
+"size_mb": 25.9,
+"autovac": 3,
+"holdback": "open",
+"tx_age": 276
+},
+{
+"t": 423.0,
+"rate": 300.8,
+"dead": 72446,
+"dead_pct": 42.01,
+"size_mb": 26.5,
+"autovac": 4,
+"holdback": "open",
+"tx_age": 291
+},
+{
+"t": 439.0,
+"rate": 302.3,
+"dead": 75876,
+"dead_pct": 43.14,
+"size_mb": 26.8,
+"autovac": 4,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 454.0,
+"rate": 301.9,
+"dead": 79200,
+"dead_pct": 44.19,
+"size_mb": 26.8,
+"autovac": 4,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 469.0,
+"rate": 301.5,
+"dead": 82851,
+"dead_pct": 45.31,
+"size_mb": 26.8,
+"autovac": 4,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 484.0,
+"rate": 301.9,
+"dead": 3669,
+"dead_pct": 3.54,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 499.0,
+"rate": 302.2,
+"dead": 7468,
+"dead_pct": 6.95,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 514.0,
+"rate": 301.4,
+"dead": 10994,
+"dead_pct": 9.91,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 529.0,
+"rate": 302.7,
+"dead": 14341,
+"dead_pct": 12.54,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 544.0,
+"rate": 301.9,
+"dead": 17307,
+"dead_pct": 14.75,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 560.0,
+"rate": 301.9,
+"dead": 20323,
+"dead_pct": 16.89,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 575.0,
+"rate": 301.6,
+"dead": 23006,
+"dead_pct": 18.7,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 590.0,
+"rate": 300.9,
+"dead": 25582,
+"dead_pct": 20.37,
+"size_mb": 26.8,
+"autovac": 5,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 605.0,
+"rate": 301.5,
+"dead": 3898,
+"dead_pct": 3.75,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 620.0,
+"rate": 301.9,
+"dead": 7606,
+"dead_pct": 7.07,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 635.0,
+"rate": 301.7,
+"dead": 11169,
+"dead_pct": 10.05,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 650.0,
+"rate": 300.5,
+"dead": 14493,
+"dead_pct": 12.66,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 665.0,
+"rate": 301.3,
+"dead": 17655,
+"dead_pct": 15.01,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 681.0,
+"rate": 301.9,
+"dead": 20294,
+"dead_pct": 16.87,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 696.0,
+"rate": 301.1,
+"dead": 23219,
+"dead_pct": 18.84,
+"size_mb": 26.8,
+"autovac": 6,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 711.0,
+"rate": 301.5,
+"dead": 20,
+"dead_pct": 0.02,
+"size_mb": 26.8,
+"autovac": 7,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 726.0,
+"rate": 302.0,
+"dead": 4085,
+"dead_pct": 3.92,
+"size_mb": 26.8,
+"autovac": 7,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 741.0,
+"rate": 301.7,
+"dead": 7778,
+"dead_pct": 7.22,
+"size_mb": 26.8,
+"autovac": 7,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 756.0,
+"rate": 301.9,
+"dead": 11304,
+"dead_pct": 10.16,
+"size_mb": 26.8,
+"autovac": 7,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 771.0,
+"rate": 301.1,
+"dead": 14467,
+"dead_pct": 12.64,
+"size_mb": 26.8,
+"autovac": 7,
+"holdback": "killed",
+"tx_age": null
+},
+{
+"t": 786.0,
+"rate": 301.2,
+"dead": 17478,
+"dead_pct": 14.88,
+"size_mb": 26.8,
+"autovac": 7,
+"holdback": "killed",
+"tx_age": null
+}
+],
+"events": [
+{
+"t": 132.0,
+"what": "phase 2: opening holdback session and ramping to 300.0 update/s over 60.0s"
+},
+{
+"t": 133.0,
+"what": "holdback session open: pid=2373 xid=3783"
+},
+{
+"t": 193.0,
+"what": "phase 3: holding at 300.0 update/s for 600.0s with holdback open"
+},
+{
+"t": 793.0,
+"what": "2026-05-14 19:37:09,061 [ERROR] holdback session failed: terminating connection due to idle-in-transaction timeout"
+}
+]
+}

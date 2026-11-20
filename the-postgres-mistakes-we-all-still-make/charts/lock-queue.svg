@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" font-family="DejaVu Sans, system-ui, sans-serif">
+  <rect width="1100" height="600" fill="#1a1a19"/>
+  <text x="40" y="44" fill="#f0efec" font-size="24">A 2 ms ALTER TABLE behind one slow query stops every other query on the table</text>
+
+  <!-- time axis -->
+  <line x1="100" y1="470" x2="1040" y2="470" stroke="#383835" stroke-width="2"/>
+  <polygon points="1040,464 1052,470 1040,476" fill="#383835"/>
+  <text x="100" y="496" fill="#898781" font-size="16">t = 0</text>
+  <text x="1040" y="496" fill="#898781" font-size="16" text-anchor="end">time</text>
+
+  <!-- lock_timeout marker -->
+  <line x1="640" y1="90" x2="640" y2="470" stroke="#199e70" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="648" y="110" fill="#199e70" font-size="18">lock_timeout = 2s fires</text>
+
+  <!-- lane 1: the long report -->
+  <text x="60" y="160" fill="#c3c2b7" font-size="18">1</text>
+  <rect x="100" y="132" width="700" height="44" rx="6" fill="#3987e5" fill-opacity="0.22" stroke="#3987e5" stroke-width="2"/>
+  <text x="450" y="161" fill="#f0efec" font-size="18" text-anchor="middle">nightly report on orders: holds ACCESS SHARE for 40 minutes</text>
+
+  <!-- lane 2: the migration -->
+  <text x="60" y="256" fill="#c3c2b7" font-size="18">2</text>
+  <rect x="360" y="214" width="280" height="64" rx="6" fill="#d95926" fill-opacity="0.22" stroke="#d95926" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="500" y="241" fill="#f0efec" font-size="18" text-anchor="middle">ALTER TABLE orders ADD COLUMN</text>
+  <text x="500" y="266" fill="#c3c2b7" font-size="16" text-anchor="middle">waiting for ACCESS EXCLUSIVE</text>
+  <!-- X where it gives up -->
+  <line x1="650" y1="222" x2="670" y2="270" stroke="#d95926" stroke-width="3"/>
+  <line x1="670" y1="222" x2="650" y2="270" stroke="#d95926" stroke-width="3"/>
+  <text x="682" y="268" fill="#c3c2b7" font-size="16">gives up; the migration tool retries later</text>
+
+  <!-- lane 3: everyone else -->
+  <text x="60" y="366" fill="#c3c2b7" font-size="18">3</text>
+  <g fill="#898781" fill-opacity="0.35" stroke="#898781" stroke-width="1.5">
+    <rect x="380" y="306" width="260" height="16" rx="4"/>
+    <rect x="400" y="330" width="240" height="16" rx="4"/>
+    <rect x="420" y="354" width="220" height="16" rx="4"/>
+    <rect x="440" y="378" width="200" height="16" rx="4"/>
+    <rect x="460" y="402" width="180" height="16" rx="4"/>
+  </g>
+  <g fill="#199e70" fill-opacity="0.6">
+    <rect x="646" y="306" width="60" height="16" rx="4"/>
+    <rect x="646" y="330" width="40" height="16" rx="4"/>
+    <rect x="646" y="354" width="50" height="16" rx="4"/>
+    <rect x="646" y="378" width="35" height="16" rx="4"/>
+    <rect x="646" y="402" width="45" height="16" rx="4"/>
+  </g>
+  <text x="720" y="340" fill="#c3c2b7" font-size="16">released: they run</text>
+  <text x="720" y="362" fill="#c3c2b7" font-size="16">as soon as the ALTER leaves</text>
+  <text x="510" y="440" fill="#f0efec" font-size="18" text-anchor="middle">every new SELECT, INSERT and UPDATE on orders queues behind the ALTER</text>
+
+  <text x="40" y="540" fill="#c3c2b7" font-size="18">First come, first served. Without lock_timeout the ALTER waits 40 minutes and so does everyone behind it.</text>
+  <text x="40" y="572" fill="#c3c2b7" font-size="18">With lock_timeout = '2s' it fails fast, the queue drains, the tool retries. The ALTER itself takes 2 ms.</text>
+</svg>
