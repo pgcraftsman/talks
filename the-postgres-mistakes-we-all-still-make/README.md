@@ -3,6 +3,8 @@
 Talk by Scott Mead (scott@meads.us), NYC Postgres Meetup, November 18 2026.
 Slides, charts, the SQL behind the detection slides, and the scripts that build all of it.
 
+**View the slides:** https://pgcraftsman.github.io/talks/the-postgres-mistakes-we-all-still-make/deck/public/slides-postable.html
+
 ## Layout
 
 | path | what |

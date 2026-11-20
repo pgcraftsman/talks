@@ -2,9 +2,9 @@
 
 Slides, demo SQL, and the scripts behind them for talks by Scott Mead, mostly about PostgreSQL.
 
-| talk | where | when |
-|---|---|---|
-| [The Postgres Mistakes We All Still Make](the-postgres-mistakes-we-all-still-make/) | NYC Postgres Meetup | November 2026 |
+| talk | where | when | slides |
+|---|---|---|---|
+| [The Postgres Mistakes We All Still Make](the-postgres-mistakes-we-all-still-make/) | NYC Postgres Meetup | November 2026 | [view](https://pgcraftsman.github.io/talks/the-postgres-mistakes-we-all-still-make/deck/public/slides-postable.html) |
 
 Each talk directory has its own README with build instructions.
 
