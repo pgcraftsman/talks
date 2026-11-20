@@ -4,8 +4,8 @@ Slides, demo SQL, and the scripts behind them for talks by Scott Mead, mostly ab
 
 | talk | where | when | slides |
 |---|---|---|---|
-| [The Postgres Mistakes We All Still Make](the-postgres-mistakes-we-all-still-make/) | NYC Postgres Meetup | November 2026 | [view](https://pgcraftsman.github.io/talks/the-postgres-mistakes-we-all-still-make/deck/public/slides-postable.html) |
 | [Parallel Query is Silently Stealing Your CPU](parallel-query-is-silently-stealing-your-cpu/) | Postgres Conference San Jose | April 2026 | [view](https://pgcraftsman.github.io/talks/parallel-query-is-silently-stealing-your-cpu/deck/public/slides.html) |
+| [The Postgres Mistakes We All Still Make](the-postgres-mistakes-we-all-still-make/) | NYC Postgres Meetup | November 2026 | [view](https://pgcraftsman.github.io/talks/the-postgres-mistakes-we-all-still-make/deck/public/slides-postable.html) |
 
 Each talk directory has its own README with build instructions.
 
