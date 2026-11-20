@@ -164,7 +164,7 @@ style: |
 # Parallel Query is Silently Stealing Your CPU
 
 ### Scott Mead
-#### Principal Engineer · Postgres Engines · AWS
+#### pgCraftsman
 
 **Postgres Conference San Jose 2026**
 
@@ -875,4 +875,4 @@ one instability for another.
 
 # Questions?
 
-**Scott Mead** · meads@amazon.com
+**Scott Mead** · scott@meads.us

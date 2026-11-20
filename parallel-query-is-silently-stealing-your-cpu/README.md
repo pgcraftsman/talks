@@ -10,7 +10,7 @@ Three ways parallel query quietly costs you CPU, and how to detect and tune each
 | path | what |
 |---|---|
 | `deck/slides.md` | The deck, Marp markdown. Styles and the diagram are inline, so it has no other files. |
-| `deck/public/slides.pdf` | The PDF as presented and posted on the conference site. |
+| `deck/public/slides.pdf` | PDF render of `deck/slides.md`. The conference posted an earlier copy with my AWS title and email. |
 | `deck/public/slides.html` | HTML render of `deck/slides.md`. |
 
 ## Build
